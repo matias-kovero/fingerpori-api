@@ -1,0 +1,9 @@
+{
+  "name": "fingerpori",
+  "version": 2,
+  "alias": "fingerpori",
+  "regions": ["bru"],
+  "github": {
+    "silent": true
+  }
+}
