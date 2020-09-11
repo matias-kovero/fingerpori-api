@@ -2,6 +2,14 @@
   "name": "fingerpori",
   "version": 2,
   "alias": "fingerpori",
+  "builds": [
+    {
+      "src": "crawler.js",
+      "use": "@now/node-server",
+      "config": { "maxLambdaSize": "20mb" }
+    }
+  ],
+  "routes": [{ "src": "/(.*)", "dest": "crawler.js" }],
   "regions": ["bru"],
   "github": {
     "silent": true
