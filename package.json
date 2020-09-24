@@ -1,5 +1,5 @@
 {
-  "name": "fingerpori-api",
+  "name": "hs-comics-api",
   "version": "1.0.0",
   "main": "crawler.js",
   "repository": "https://github.com/matias-kovero/fingerpori-api.git",

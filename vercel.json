@@ -1,7 +1,7 @@
 {
-  "name": "fingerpori",
+  "name": "hs-comics",
   "version": 2,
-  "alias": "fingerpori",
+  "alias": "hs-comics",
   "builds": [
     {
       "src": "crawler.js",

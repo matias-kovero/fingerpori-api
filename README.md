@@ -1,10 +1,12 @@
-# fingerpori-api
+# hs-comic-api
 
-Scrapes the daily Fingerpori from [Helsingin Sanomat](https://www.hs.fi/fingerpori/).
+Scrapes the daily comics from [Helsingin Sanomat](https://www.hs.fi/sarjakuvat/).
 
-Helsingin Sanomat is currently publishing a new comic every Monday to Saturday
+Currently supporting:
+- [/fingerpori](https://www.hs.fi/fingerpori/)
+- [/fok_it](https://www.hs.fi/nyt/fokit/)
 
-HTTP GET request to `https://fingerpori.vercel.app/daily` will result a response that follows:
+HTTP GET request to `https://hs-comics.vercel.app/fingerpori` will result a response that follows:
 ```
 {
   "publication_date":"2020-09-11",
